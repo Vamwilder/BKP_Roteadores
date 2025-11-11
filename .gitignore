@@ -1,0 +1,89 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Arquivos temporários do Node e builds locais
+dist/
+build/
+.cache/
+.tmp/
+.env
+.env.local
+.env.*.local
+
+# === Logs ===
+logs
+*.log
+logs/
+debug.log
+error.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+
+# === IDEs e editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.old
+
+# === Docker ===
+docker-compose.override.yml
+*.tar
+*.img
+
+# === Backups e arquivos gerados ===
+backups/
+*.rsc
+*.bak
+*.zip
+*.tar.gz
+*.7z
+
+# === Testes ===
+coverage/
+__tests__/
+*.test.js
+*.spec.js
+
+# === SSH e chaves ===
+*.pem
+*.key
+*.crt
+*.csr
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# === JSON sensíveis ===
+secrets.json
+config.json
+credentials.json
+
+# === Ambiente local ===
+*.local
+*.dev
+*.backup
+*.swp
+
+# === Misc ===
+*.tgz
+*.orig
+*.rej
