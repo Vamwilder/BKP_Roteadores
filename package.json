@@ -1,0 +1,24 @@
+{
+  "name": "bkp_mikrotik",
+  "version": "1.0.0",
+  "description": "Automatizar a conexão com diversos roteadores **MikroTik** para:",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vamwilder/BKP_Roteadores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vamwilder/BKP_Roteadores/issues"
+  },
+  "homepage": "https://github.com/Vamwilder/BKP_Roteadores#readme",
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "ssh2": "^1.17.0"
+  }
+}
