@@ -94,4 +94,7 @@ backups/
 
 ---
 
+para utilizar, instale as dependencias?
+npm install ssh2 basic-ftp
+
 ## 👤 Criado por Maik de Moura Lechinovski
